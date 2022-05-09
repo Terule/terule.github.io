@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="/assets/fonts/style.css">
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,76 +12,114 @@
     <!--  -->
     <title>Rafael Aguiar Gomes</title>
   </head>
+
   <body>
     <header id="header">
       <nav class="container">
         <a class="logo" href="#">Rafael<span>Aguiar</span>.</a>
-        <div class="menu"></div>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Quem sou eu</a></li>
+            <li><a class="title" href="#skills">Minhas habilidade</a></li>
+            <li><a class="title" href="#hobbies">Hobbies</a></li>
+            <li><a class="title" href="#contact">Onde me encontrar</a></li> 
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-x"></div>
       </nav>
-
-      <!-- <nav>
-        <ul>
-          <li><a href="#quemSouEu">Quem sou eu</a></li>
-          <li><a href="#minhasHabilidades">Minhas habilidade</a></li>
-          <li><a href="#ondeMeEncontrar">Onde me encontrar</a></li>
-          <li><a href="#hobbies">Hobbies</a></li>
-        </ul>
-      </nav> -->
     </header>
 
     <main>
-      <section class="section" id="home">
-      <div class="container grid">
-        <div class="image">
-          <img
-          src="imagens/aguiar.png"
-          alt="Foto de Rafael Aguiar Gomes"
-          height="250px"
+            <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="imagens/aguiar.png"
+              alt="Foto de Rafael Aguiar Gomes"
           />
-        </div>
-        <div class="text">
-          <h1 id="quemSouEu">Quem sou eu</h1>
-        <p>
-          <em>"Mineirim uai"!</em> 
-          Estudante de full-stack na
-          <a href="http://www.betrybe.com" target="_blank">Trybe</a>, pai do
-          Davi, gamer e podcaster nas horas vagas.<br />Amo tecnologia e
-          desmistificar o seu funcionamento.
-        </p>
+          </div>
+          <div class="text">
+            <h2 class="title">Quem sou eu</h2>
+            <p>
+              <em>"Mineirim uai"!</em> 
+              Estudante de full-stack na
+              <a href="http://www.betrybe.com" target="_blank" id="trybe"><b>Trybe</b></a>, pai do
+              Davi, gamer e podcaster nas horas vagas.<br />Amo tecnologia e
+              desmistificar o seu funcionamento.
+            </p>
+          </div>
         </div>
       </section>
 
       <div class="divider-1"></div>
 
-      <section class="section">
-        <div class="container">
-        <h1 id="minhasHabilidades">Minhas habilidades</h1>
-        <h4>Sociais</h4>
-        <ul>
-          <li><i>Empatia</i></li>
-          <li><i>Perseverança</i></li>
-          <li><i>Resiliência</i></li>
-          <li><i>Comunicação</i></li>
-          <li><i>Colaboração</i></li>
-          <li><i>Resolução de conflitos</i></li>
-        </ul>
-        <h4>Técnicas</h4>
-        <ul>
-          <li>
-            <i>Conhecimento avançado em </i><b>infraestrutura de redes</b>
-          </li>
-          <li><i>Conhecimento básico em </i><b>HTML</b></li>
-          <li><i>Conhecimento básico em </i><b>CSS</b></li>
-          <li><i>Conhecimento básico em </i><b>Photoshop</b></li>
-          <li><i>Conhecimento básico em </i><b>Illustrator</b></li>
-          <li><i>Conhecimento básico em </i><b>JavaScript</b></li>
-          <li><i>Inglês avançado</i></li>
-        </ul>
-      </div>
+      <section class="section" id="skills">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Minhas Habilidades</h2>
+            <p class="subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perferendis voluptatum maiores, molestias omnis possimus, vel illum enim adipisci dolorem quod consectetur quia harum maxime illo, officia aliquid veritatis voluptates?
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <h3 class="title">Sociais</h3>
+              <ul>
+                <li><p>Empatia</p></li>
+                <li><p>Perseverança</p></li>
+                <li><p>Resiliência</p></li>
+                <li><p>Comunicação</p></li>
+                <li><p>Colaboração</p></li>
+                <li><p>Resolução de conflitos</p></li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="title">Técnicas</h3>
+              <p>
+                <ul>
+                  <li><p>Avançado em <b>infraestrutura de redes</b></p></li>
+                  <li><p>Básico em <b>HTML</b></p></li>
+                  <li><p>Básico em <b>CSS</b></p></li>
+                  <li><p>Básico em <b>Photoshop</b></p></li>
+                  <li><p>Básico em <b>Illustrator</b></p></li>
+                  <li><p>Básico em <b>JavaScript</b></p></li>
+                  <li><p>Avançado em <b>Inglês</b></p></li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="section">
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="hobbies">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Minhas Habilidades</h2>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/show/3H4BkVACf2vM2wqbeMHaPZ?utm_source=generator"
+              width="100%"
+              height="155"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            ></iframe>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="contact">
         <div class="container">
-        <h1 id="ondeMeEncontrar">Onde me encontrar</h1>
+        <h1 >Onde me encontrar</h1>
         <a href="https://www.linkedin.com/in/aguiar-fael/" target="_blank"
           ><img
             src="imagens/linkedin.png"
@@ -101,21 +140,11 @@
         /></a>
       </div>
         </section>
-        <div class="container">
-        <section class="section">
-        <h1 id="hobbies">Hobbies</h1>
-        <iframe
-          style="border-radius: 12px"
-          src="https://open.spotify.com/embed/show/3H4BkVACf2vM2wqbeMHaPZ?utm_source=generator"
-          width="100%"
-          height="200"
-          frameborder="0"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        ></iframe>
-      </div>
-        </section>
-      </div>
     </main>
+
+
+    <script src="main.js"></script>
+
+
   </body>
 </html>
