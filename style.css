@@ -616,9 +616,13 @@ footer .social a:hover {
     grid-auto-flow: column;
   }
 
-  /* services */
+  /* skills */
   .cards {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .cards-hobbies {
+    grid-template-columns: 1fr;
   }
 
   .card {
