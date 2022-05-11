@@ -343,7 +343,7 @@ nav.show div.icon-x {
 }
 
 /*====  SKILLS ============================ */
-#skills{
+#skills {
   background-color: #fff;
 }
 
@@ -439,7 +439,7 @@ nav.show div.icon-x {
 }
 
 /*====  CONTACT ============================ */
-#contact{
+#contact {
   background-color: #fff;
 }
 
@@ -618,7 +618,7 @@ footer .social a:hover {
 
   /* services */
   .cards {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .card {
