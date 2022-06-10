@@ -1,4 +1,4 @@
-// abre o menu quando clica no icone hamburger e no x
+// abre o menu quando clica no ícone hamburger e no x
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
 
@@ -16,3 +16,4 @@ for (const link of links) {
     nav.classList.remove('show')
   })
 }
+
